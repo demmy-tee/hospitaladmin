@@ -1,0 +1,542 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.background-div{
+  top: 0px;
+  left: 0px;
+  width: 1600px;
+  height: 1195px;
+  background: #F6F7F8 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 30px;
+}
+.navbar{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  top: 18px;
+  left: 18px;
+  width:1564px;
+  height: 72px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 70px;
+  opacity: 1;
+  padding: 20px ;
+}
+.nav-item ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ top: 23px;
+  left: 473px;
+  width: 663px;
+  height: 63px;
+  opacity: 1;
+}
+.nav-item ul li{
+  top: 45px;
+  left: 498px;
+  width: 63px;
+  height: 19px;
+  display:flex;
+  align-items: center;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+}
+.nav-item ul li span{
+  top: 45px;
+  left: 498px;
+  width: 63px;
+  height: 19px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0px;
+  margin-left: 10px;
+}
+.doctor{
+margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 32px;
+  left: 1309px;
+  width: 181px;
+  height: 44px;
+  opacity: 1;
+}
+.doctor img{
+  top: 32px;
+  left: 1309px;
+  width: 44px;
+  height: 44px;
+  background: transparent url('img/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.doctor-name, .doctor-position {
+  display: block;
+}
+.doctor-name{
+  top: 35px;
+  left: 1361px;
+  width: 119px;
+  height: 19px;
+  white-space: nowrap;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  }
+  .doctor-position{
+    top: 54px;
+    left: 1361px;
+    width: 129px;
+    height: 19px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope
+  
+  }
+  .setting-icon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-left: 15px;
+  }
+  .setting-icon .set{
+    top: 44px;
+    left: 1515px;
+    width: 19px;
+    height: 20px;
+    background: transparent url('img/settings_FILL0_wght300_GRAD0_opsz24.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .setting-icon .vert{
+    top: 44px;
+    left: 1515px;
+    width: 19px;
+    height: 20px;
+    background: transparent url('img/settings_FILL0_wght300_GRAD0_opsz24.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+/* styling for the main grid starts here */
+  .main{
+    padding: 20px;
+    display: grid;
+     grid-template-columns: repeat(3, );
+    grid-template-rows: (3,);
+    grid-template-areas:
+    'grid1 grid2 grid4'
+    'grid1 grid3 grid5'
+    ;
+
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+
+  .grid1{
+    grid-area: grid1;
+    top: 122px;
+    left: 18px;
+    width: 367px;
+    height: 1054px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+  }
+  .grid2{
+    grid-area: grid2;
+    top: 122px;
+    left: 417px;
+    width: 766px;
+    height: 673px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+  }
+ 
+  .grid3{
+  grid-area: grid3;
+  top: 827px;
+  left: 417px;
+  width: 766px;
+  height: 349px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+  }
+  .grid4{
+    grid-area: grid4;
+    top: 108px;
+    left: 1216px;
+    width: 367px;
+    height: 740px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+      }
+
+  .grid5{
+    grid-area: grid5;
+    top: 880px;
+    left: 1215px;
+    width: 367px;
+    height: 296px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+  }
+  .patients-list-grid{
+    padding: 20px;
+  }
+
+  .p-header{ 
+  display: flex ;
+  position: relative;
+  /* flex: 1 1 auto; */
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+ .p-header span{
+  /* position: fixed; */
+  /* padding: 20px; */
+  /* margin-left: 10px; */
+  top: 142px;
+  left: 38px;
+  width: 100px;
+  height: 33px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal 800 24px/33px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+ }
+ .p-header img{
+  /* position: fixed; */
+  /* margin-top: 20px; */
+  /* top: 150px;
+  left: 347px;
+  width: 18px;
+  height: 18px; */
+  background: transparent url('img/search_FILL0_wght300_GRAD0_opsz24.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+ }
+ .patients-list{
+  height: 950px;
+   overflow: auto;
+   padding: 0 20px 0 0;
+ }
+   .patients-list::-webkit-scrollbar{
+    width: 6px;
+    min-height: 20px;
+    border-radius: 20px;
+  }
+  .patients-list::-webkit-scrollbar-thumb{
+    background-color: #00000094;
+  }
+  .patients-list::-webkit-scrollbar-track{
+    background-color:#F6F7F8
+  }
+ .patients-list-items{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  
+ }
+ .info{
+  display: flex;
+  flex-direction: column;
+ }
+ .patients-list-items span{
+  left: 98px;
+  /* width: 73px; */
+  height: 19px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+  margin-left: 15px;
+  white-space: nowrap;
+
+}
+.diagnostic-grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr; 
+ grid-template-areas: 'blood-pressure blood-pressure blood-pressure'
+  'respiratory-rate temperature heart-rate'
+ ;
+padding: 20px;
+grid-gap: 20px;
+}
+.diagnosis-header{
+  padding: 20px;
+top: 142px;
+left: 437px;
+height: 33px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-072635);
+text-align: left;
+font: normal normal 800 24px/33px Manrope;
+letter-spacing: 0px;
+color: #072635;
+opacity: 1;
+}
+.blood-pressure{
+  grid-area: blood-pressure;
+  top: 215px;
+  left: 437px;
+  width: 726px;
+  height: 298px;
+  background: #F4F0FE 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+}
+.respiratory-rate{
+  grid-area: respiratory-rate;
+  top: 533px;
+  left: 437px;
+  width: 228px;
+  height: 242px;
+  background: #E0F3FA 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+  padding: 20px;
+}
+.temperature{
+  grid-area: temperature;
+    top: 533px;
+  left: 686px;
+  width: 228px;
+  height: 242px;
+  background: #FFE6E9 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+  padding: 20px;
+}
+.heart-rate{
+  grid-area: heart-rate;
+  top: 533px;
+  left: 935px;
+  width: 228px;
+  height: 242px;
+  background: #FFE6F1 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+  padding: 20px;
+}
+.diagnosis-info .img1{
+  /* margin-left: 40px; */
+  /* justify-content: center; */
+  top: 549px;
+  left: 453px;
+  width: 96px;
+  height: 96px;
+  background: transparent url('img/respiratory rate.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.diagnosis-info .img2{
+  top: 549px;
+left: 702px;
+width: 96px;
+height: 96px;
+/* UI Properties */
+background: transparent url('img/temperature.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.diagnosis-info .img3{
+  top: 549px;
+  left: 951px;
+  width: 96px;
+  height: 96px;
+  background: transparent url('img/HeartBPM.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.diagnosis-info{
+  display: flex;
+  flex-direction: column;
+}
+.patient-info{
+  display: flex;
+}
+.patient-name{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+/* .ver-more{
+  justify-content: flex-start;
+margin-left: 10px;
+}
+ */
+ .bp-history{
+  display: flex;
+  justify-content:space-between;
+  padding: 20px;
+ }
+ .bp-chart{
+  display: flex;
+  /* flex: auto 1 1; */
+  justify-content: space-between;
+ }
+ .diagnose{
+  padding: 20px;
+ }
+ .diagnostic-scrollbox{
+  height: 300px;
+  overflow: auto;
+  padding: 20px;
+ }
+ .diagnosis-condition{
+  display: flex;
+  justify-content: space-between;
+ }
+ .diagnosis-condition span{
+  top: 935px;
+left: 453px;
+width: 129px;
+height: 19px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-072635);
+text-align: left;
+font: normal normal bold 14px/19px Manrope;
+letter-spacing: 0px;
+color: #072635;
+opacity: 1;
+ }
+ .diagnosis-status{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  white-space: wrap;
+  margin-top: 30px;
+ }
+ .active-pix img{
+  position: absolute;
+ top: 170px;
+left: 1299px;
+width: 200px;
+height: 200px;
+background: transparent url('img/Layer 2.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.active-pix p{
+  position: absolute;
+  top: 375px;
+  left: 1317px;
+  width: 164px;
+  height: 33px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: center;
+  font: normal normal 800 24px/33px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  opacity: 1;
+}
+
+.active{
+  display:block;
+  position: absolute;
+  margin-top: 300px;
+  padding: 20px;
+}
+.active-info{
+  display: flex;
+  align-items: center;
+}
+.dob{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.dob >span{
+  font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal medium 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.active-button button{
+  position: absolute;
+  top: 775px;
+left: 1289px;
+width: 220px;
+height: 41px;
+background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+background: #01F0D0 0% 0% no-repeat padding-box;
+border-radius: 41px;
+opacity: 1;
+}
+
+.test-results{
+  padding: 20px;
+  overflow: auto;
+  height: 200px;
+}
+.test-results li{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between
+}
+.test-results li span,img{
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/18px var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  /* font: normal normal normal 13px/18px Manrope; */
+  letter-spacing: 0px;
+  color: #072635;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.lab-header h2{
+  padding: 20px 0px 20px 20px;
+  font-weight: bolder;
+  
+/* UI Properties */
+/* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/18px var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-072635);
+text-align: left;
+/* font: normal normal normal 13px/18px Manrope; */
+letter-spacing: 0px;
+color: #072635;
+text-transform: capitalize;
+opacity: 1; 
+}
